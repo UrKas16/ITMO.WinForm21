@@ -1,19 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ITMO.WinForm
 {
     public partial class Form1 : Form
     {
+        nForm myF2;
+
         public Form1()
         {
+            myF2 = new nForm();
             InitializeComponent();
         }
 
@@ -40,6 +37,30 @@ namespace ITMO.WinForm
         private void button3_Click(object sender, EventArgs e)
         {
             this.Opacity = 1;
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //nForm myF2 = new nForm();
+            myF2.StartPosition = FormStartPosition.Manual;
+            myF2.Location = new Point(this.Location.X + this.Width, this.Location.Y);
+            myF2.Show();
+
+            //try
+            //{
+            //    myF2.Show();
+            //    myF2.Activate();
+            //}
+
+            //catch (ObjectDisposedException)
+            //{
+            //    myF2 = new nForm();
+            //    myF2.Text = "Открыта новая форма";
+            //    myF2.Show();
+            //    myF2.Activate();
+            //}
+
         }
     }
 }
