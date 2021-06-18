@@ -1,7 +1,7 @@
 ﻿
 namespace ITMO.WinForm.exp2
 {
-    partial class Form1
+    partial class nForm2
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -29,38 +29,23 @@ namespace ITMO.WinForm.exp2
         /// </summary>
         private void InitializeComponent()
         {
-            this.CloseFormBTN = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CloseFormBTN
             // 
-            this.CloseFormBTN.Location = new System.Drawing.Point(0, 0);
-            this.CloseFormBTN.Name = "CloseFormBTN";
-            this.CloseFormBTN.Size = new System.Drawing.Size(75, 23);
-            this.BackColor = System.Drawing.Color.Brown;
-            this.CloseFormBTN.TabIndex = 0;
-            this.CloseFormBTN.Text = "Hello!!!";
-            this.CloseFormBTN.UseVisualStyleBackColor = true;
-            this.CloseFormBTN.Click += new System.EventHandler(this.CloseFormBTN_Click);
+            this.CloseFormBTN.Location = new System.Drawing.Point(1, 2);
             // 
-            // Form1
+            // nForm2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
             this.ClientSize = new System.Drawing.Size(384, 261);
-            this.Controls.Add(this.CloseFormBTN);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "nForm2";
+            this.Load += new System.EventHandler(this.nForm2_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        protected System.Windows.Forms.Button CloseFormBTN;
     }
 }
-
