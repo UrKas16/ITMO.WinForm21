@@ -59,7 +59,7 @@ namespace ITMO.WinForm.lab2.exp1
             this.btnno.Name = "btnno";
             this.btnno.Size = new System.Drawing.Size(75, 23);
             this.btnno.TabIndex = 2;
-            this.btnno.TabStop = false;
+            this.btnno.TabStop = true;
             this.btnno.Text = "НЕТ";
             this.btnno.UseVisualStyleBackColor = true;
             this.btnno.Click += new System.EventHandler(this.btnno_Click);

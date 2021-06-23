@@ -38,7 +38,7 @@ namespace ITMO.WinForm.lab2.exp1
 
         private void btnno_Click(object sender, EventArgs e)
         {
-            
+            Close();
         }
 
         private void Form1_Load(object sender, EventArgs e)
