@@ -103,7 +103,6 @@ namespace ITMO.WinForm.lab2.exp2
             this.memberList.Name = "memberList";
             this.memberList.Size = new System.Drawing.Size(120, 94);
             this.memberList.TabIndex = 0;
-        
             // 
             // listForm
             // 
@@ -125,8 +124,8 @@ namespace ITMO.WinForm.lab2.exp2
         private System.Windows.Forms.Button buttonSort;
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Button buttonAdd;
-        private System.Windows.Forms.ComboBox peopleList;
-        private System.Windows.Forms.CheckedListBox memberList;
+        public System.Windows.Forms.ComboBox peopleList;
+        public System.Windows.Forms.CheckedListBox memberList;
     }
 }
 

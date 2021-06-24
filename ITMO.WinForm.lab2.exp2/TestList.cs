@@ -12,7 +12,7 @@ namespace ITMO.WinForm.lab2.exp2
 {
     public partial class listForm : Form
     {
-        int i;
+        //int i;
         public listForm()
         {
             InitializeComponent();
@@ -20,33 +20,6 @@ namespace ITMO.WinForm.lab2.exp2
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            //if (memberList.Items.Count != 0)
-            //{
-            //    for (i = memberList.Items.Count; i < memberList.Items.Count; i++)
-            //    {
-            //        if (peopleList.Items[0] == memberList.Items[i])
-            //        {
-            //            MessageBox.Show("Данные элемент уже есть в списке");
-            //        }
-            //        else
-            //        {
-            //            memberList.Items.Add(peopleList.Text);
-            //        }
-            //    }
-            //}
-            //else
-            //{
-            //    if (peopleList.Text.Length != 0)
-            //    {
-            //        memberList.Items.Add(peopleList.Text);
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Выберите элемент из списка или введите новый.");
-            //    }
-
-            //}
-
             if (peopleList.Text.Length != 0)
             {
                 memberList.Items.Add(peopleList.Text);
@@ -70,5 +43,10 @@ namespace ITMO.WinForm.lab2.exp2
             memberList.Sorted = true;
         }
 
+        private void btnADDpeople_Click(object sender, EventArgs e)
+        {
+            addForm addForm = new addForm();
+            addForm.Show();
+        }
     }
 }
