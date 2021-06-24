@@ -25,7 +25,7 @@ namespace ITMO.WinForm.exp4
 
         private void WindowCascadeMenuItem_Click(object sender, EventArgs e)
         {
-            this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+            this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
         }
 
         private void NewMenuItem_Click(object sender, EventArgs e)
@@ -35,6 +35,31 @@ namespace ITMO.WinForm.exp4
             newChild.Show();
 
             newChild.Text = newChild.Text + ' ' + ++openDocument;
+        }
+
+        private void WindowTileMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            switch (e.ClickedItem.Tag.ToString())
+            {
+                case "NewDoc":
+                    ChildForm newChild = new ChildForm();
+                    newChild.MdiParent = this;
+                    newChild.Show();
+                    break;
+                    newChild.Text = newChild.Text + ' ' + ++openDocument;
+                case "Cascade":
+                    this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
+                    break;
+                case "Title":
+                    this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+                break;
+            }
+
         }
     }
 }
