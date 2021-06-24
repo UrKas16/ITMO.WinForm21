@@ -30,6 +30,7 @@ namespace ITMO.WinForm.lab2.exp2
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnload = new System.Windows.Forms.Button();
             this.buttonSort = new System.Windows.Forms.Button();
             this.buttonDelete = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
@@ -40,6 +41,7 @@ namespace ITMO.WinForm.lab2.exp2
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnload);
             this.groupBox1.Controls.Add(this.buttonSort);
             this.groupBox1.Controls.Add(this.buttonDelete);
             this.groupBox1.Controls.Add(this.buttonAdd);
@@ -51,6 +53,16 @@ namespace ITMO.WinForm.lab2.exp2
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Список участников";
+            // 
+            // btnload
+            // 
+            this.btnload.Location = new System.Drawing.Point(24, 205);
+            this.btnload.Name = "btnload";
+            this.btnload.Size = new System.Drawing.Size(75, 23);
+            this.btnload.TabIndex = 5;
+            this.btnload.Text = "Загрузить данные";
+            this.btnload.UseVisualStyleBackColor = true;
+            this.btnload.Click += new System.EventHandler(this.btnload_Click);
             // 
             // buttonSort
             // 
@@ -124,8 +136,9 @@ namespace ITMO.WinForm.lab2.exp2
         private System.Windows.Forms.Button buttonSort;
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Button buttonAdd;
-        public System.Windows.Forms.ComboBox peopleList;
-        public System.Windows.Forms.CheckedListBox memberList;
+        private System.Windows.Forms.ComboBox peopleList;
+        private System.Windows.Forms.CheckedListBox memberList;
+        private System.Windows.Forms.Button btnload;
     }
 }
 
