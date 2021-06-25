@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForm.lab2.exp1", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForm.lab2.exp2", "ITMO.WinForm.lab2.exp2\ITMO.WinForm.lab2.exp2.csproj", "{D43B3AC8-B5AB-4151-BCC5-10A30DFC0DB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForm.lab2.exp5", "ITMO.WinForm.lab2.exp5\ITMO.WinForm.lab2.exp5.csproj", "{08BED7A6-A6AA-4CE7-85AB-9A05972A9611}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D43B3AC8-B5AB-4151-BCC5-10A30DFC0DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D43B3AC8-B5AB-4151-BCC5-10A30DFC0DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D43B3AC8-B5AB-4151-BCC5-10A30DFC0DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BED7A6-A6AA-4CE7-85AB-9A05972A9611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BED7A6-A6AA-4CE7-85AB-9A05972A9611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BED7A6-A6AA-4CE7-85AB-9A05972A9611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BED7A6-A6AA-4CE7-85AB-9A05972A9611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
