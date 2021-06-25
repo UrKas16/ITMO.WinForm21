@@ -16,6 +16,7 @@ namespace ITMO.WinForm.exp4
         public ParentForm()
         {
             InitializeComponent();
+            spData.Text = Convert.ToString(System.DateTime.Today.ToLongDateString());
         }
 
         private void ExitMenuItem_Click(object sender, EventArgs e)
@@ -26,6 +27,7 @@ namespace ITMO.WinForm.exp4
         private void WindowCascadeMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
+            spWin.Text = "Windows is cascade";
         }
 
         private void NewMenuItem_Click(object sender, EventArgs e)
@@ -40,6 +42,7 @@ namespace ITMO.WinForm.exp4
         private void WindowTileMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+            spWin.Text = "Windows is horizontal";
         }
 
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -54,11 +57,18 @@ namespace ITMO.WinForm.exp4
                     newChild.Text = newChild.Text + ' ' + ++openDocument;
                 case "Cascade":
                     this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
+                    spWin.Text = "Windows is cascade";
                     break;
                 case "Title":
                     this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
-                break;
+                    spWin.Text = "Windows is horizontal";
+                    break;
             }
+
+        }
+
+        private void ParentForm_Load(object sender, EventArgs e)
+        {
 
         }
     }
