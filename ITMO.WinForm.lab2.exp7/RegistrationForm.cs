@@ -34,6 +34,8 @@ namespace ITMO.WinForm.lab2.exp7
                 txt.Name = "textboxx";
                 txt.TabIndex = 1;
                 txt.Text = "";
+                txt.KeyPress += new
+                System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
                 groupBox1.Controls.Add(txt);
             }
             else 
@@ -45,6 +47,47 @@ namespace ITMO.WinForm.lab2.exp7
                 {
                     groupBox1.Controls.RemoveAt(lcv - 1);
                     lcv -= 1;
+                }
+             }
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+                MessageBox.Show("Поле Name может содержать только буквы");
+            }
+            errorProvider1.SetError(textBox1, "Must be letter");
+        }
+
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //if (!char.IsDigit(e.KeyChar))
+            //{
+            //    e.Handled = true;
+            //    MessageBox.Show("Поле PIN может содержать только цифры");
+            //}
+        }
+
+        private void textBox2_Validating(object sender, CancelEventArgs e)
+        {
+            if (textBox2.Text == "")
+            {
+                e.Cancel = true;
+            }
+            else
+            {
+                try
+                {
+                    double.Parse(textBox2.Text);
+                    e.Cancel = false;
+                }
+                catch
+                {
+                    e.Cancel = true;
+                    MessageBox.Show("Поле PIN не может содержать буквы");
                 }
             }
         }
