@@ -91,5 +91,10 @@ namespace ITMO.WinForm.lab2.exp7
                 }
             }
         }
+
+        private void RegistrationForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

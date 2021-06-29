@@ -136,6 +136,7 @@ namespace ITMO.WinForm.lab2.exp7
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "RegistrationForm";
             this.Text = "Регистрация";
+            this.Load += new System.EventHandler(this.RegistrationForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
