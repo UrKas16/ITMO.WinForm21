@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForm.lab2.exp7-8", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForm.lab3.exp1", "ITMO.WinForm.lab3.exp1\ITMO.WinForm.lab3.exp1.csproj", "{587D7718-4321-4EEE-BDB8-41514563424B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsControlLibrary1", "ITMO.WinForm.lab3.exp1\WinFormsControlLibrary1\WinFormsControlLibrary1.csproj", "{0DA75051-02F3-4CCC-B5D5-5517BF884FB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{587D7718-4321-4EEE-BDB8-41514563424B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{587D7718-4321-4EEE-BDB8-41514563424B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{587D7718-4321-4EEE-BDB8-41514563424B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA75051-02F3-4CCC-B5D5-5517BF884FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA75051-02F3-4CCC-B5D5-5517BF884FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA75051-02F3-4CCC-B5D5-5517BF884FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA75051-02F3-4CCC-B5D5-5517BF884FB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

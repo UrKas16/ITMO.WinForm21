@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="UserControlTimer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControlTimer.Designer.cs">
+      <DependentUpon>UserControlTimer.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="UserControlTimer.resx">
+      <DependentUpon>UserControlTimer.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
