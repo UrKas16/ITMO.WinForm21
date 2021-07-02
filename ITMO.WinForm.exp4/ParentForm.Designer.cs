@@ -170,7 +170,7 @@ namespace ITMO.WinForm.exp4
             this.statusStrip1.Location = new System.Drawing.Point(0, 289);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(434, 22);
-            this.statusStrip1.TabIndex = 5;
+            this.statusStrip1.TabIndex = 5;            
             // 
             // spWin
             // 

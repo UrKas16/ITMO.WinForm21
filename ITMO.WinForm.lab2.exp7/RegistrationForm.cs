@@ -96,5 +96,10 @@ namespace ITMO.WinForm.lab2.exp7
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

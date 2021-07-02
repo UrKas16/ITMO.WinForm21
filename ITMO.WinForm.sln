@@ -23,11 +23,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForm.lab2.exp7-8", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForm.lab3.exp1", "ITMO.WinForm.lab3.exp1\ITMO.WinForm.lab3.exp1.csproj", "{587D7718-4321-4EEE-BDB8-41514563424B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0WinFormsControlLibrary1", "ITMO.WinForm.lab3.exp1\WinFormsControlLibrary1\0WinFormsControlLibrary1.csproj", "{0DA75051-02F3-4CCC-B5D5-5517BF884FB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0WinFormsControlLibrary1", "ITMO.WinForm.lab3.exp1\WinFormsControlLibrary1\0WinFormsControlLibrary1.csproj", "{0DA75051-02F3-4CCC-B5D5-5517BF884FB5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForm.lab3.exp2", "ITMO.WinForm.lab3.exp2\ITMO.WinForm.lab3.exp2.csproj", "{CAAD5671-590E-484B-91F3-291BDDFF7821}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForm.lab3.exp3", "ITMO.WinForm.lab3.exp3\ITMO.WinForm.lab3.exp3.csproj", "{96B0B98C-A71A-496B-AFB9-28C501E584BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorEngine", "..\..\..\Desktop\ИТМО\Разработка Windows-приложений на C#\1_WindowsForms\Практика\Practices\Calc_Starter\CalculatorEngine\CalculatorEngine.csproj", "{429B62D7-A754-484E-90B9-FA28D0CEC101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCalculator", "..\..\..\Desktop\ИТМО\Разработка Windows-приложений на C#\1_WindowsForms\Практика\Practices\Calc_Starter\WindowsCalculator.csproj", "{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{96B0B98C-A71A-496B-AFB9-28C501E584BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96B0B98C-A71A-496B-AFB9-28C501E584BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96B0B98C-A71A-496B-AFB9-28C501E584BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429B62D7-A754-484E-90B9-FA28D0CEC101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429B62D7-A754-484E-90B9-FA28D0CEC101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429B62D7-A754-484E-90B9-FA28D0CEC101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429B62D7-A754-484E-90B9-FA28D0CEC101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
